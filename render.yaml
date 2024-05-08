@@ -1,7 +1,7 @@
 databases:
   - name: Noise
     databaseName: noisedb
-    user: VicenteAcevedoLav02
+    user: vichochiara
     plan: free
 
 services:
