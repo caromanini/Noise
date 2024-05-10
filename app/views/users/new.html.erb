@@ -143,23 +143,6 @@
         </div>
     </div>
 
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-    
-
     <link href="features.css" rel="stylesheet"Z
 
 <div class="container px-4 py-5" id="featured-3">
@@ -195,30 +178,13 @@
   </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <link href="features.css" rel="stylesheet"
 <div class="container px-4 py-5" id="custom-cards">
 
 <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 ms-5 me-5">
   <div class="col">
     <div class="card card-chiara h-100 overflow-hidden text-dark rounded-4 shadow-lg border-secondary mb-3">
+      <img src="<%= image_path('index/happy_wake_up.jpeg') =%>" class="img-responsive center-block" alt="...">
       <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
         <h3 class="text-card-custom pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Duerme mejor y despierta renovado cada mañana.</h3>
         <ul class="d-flex list-unstyled mt-auto">
@@ -230,6 +196,7 @@
 
   <div class="col">
     <div class="card card-chiara h-100 overflow-hidden text-secondary rounded-4 shadow-lg border-secondary mb-3" >
+      <img src="<%= image_path('index/reading_book.jpg') =%>" class="img-responsive center-block" alt="...">
       <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
         <h3 class="text-card-custom pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Reduce el estrés al crear un ambiente tranquilo.</h3>
         <ul class="d-flex list-unstyled mt-auto">
@@ -240,6 +207,7 @@
 
   <div class="col">
     <div class="card card-chiara h-100 overflow-hidden text-dark rounded-4 shadow-lg border-secondary mb-3" >
+      <img src="<%= image_path('index/study.jpg') =%>" class="img-responsive center-block" alt="...">
       <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
         <h3 class="text-card-custom pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Aumenta la concentración en tus tareas diarias.</h3>
         <ul class="d-flex list-unstyled mt-auto">
@@ -252,18 +220,8 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
   <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <!-- <img src="<%= image_path('index/reading_book.jpg') =%>" class="img-responsive center-block" alt="..."> -->
     <div class="row align-items-center g-lg-5 py-5">
       <div class="col-lg-7 text-center text-lg-start">
         <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">No esperes más!</h1>
@@ -284,12 +242,6 @@
       </div>
     </div>
   </div>
-
-
-
-
-
-
 
 
   <footer class="footer container py-5 mt-auto">
@@ -406,10 +358,13 @@
     flex: 1;
   }
 }
+.fit-image{
+  background-image: url('reading_book.jpg');
+  background-repeat: no-repeat;
+}
 
-      </style>
 
-
+</style>
 
     <script>
         document.getElementById("scrollButton").addEventListener("click", function() {

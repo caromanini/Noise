@@ -72,4 +72,14 @@
       flex: 1;
     }
   }
+
+
+  /*
+   * Background image baby!
+   */
+  body {
+    background-image: image-url('index/reading_book.jpg.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
   
